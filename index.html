@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dream Big</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Rancho" rel="stylesheet">
+    <script src="https://use.fontawesome.com/b15695b542.js"></script>
+</head>
+
+<body>
+    <header class="header text-center">
+        <div class="overlay">
+            <div class="container">
+                <nav class="visible-md visible-lg visible-sm">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#courses">Courses</a></li>
+                        <li><a href="#instructors">Instructors</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <h1 class="clearfix">Dream Big</h1>
+                <p>Life is what you make it, So make it right.</p>
+                <div class="choices">
+                    <p>Determine your goal</p>
+                    <p>Choose your path</p>
+                </div>
+                <button><a href="#courses">Enroll Now</a></button>
+            </div>
+        </div>
+    </header>
+    
+    <nav class="visible-xs nav-mobile">
+        <div class="container">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#instructors">Instructors</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <section class="about" id="about">
+        <div class="container">
+            <div class="title">
+                <h2>About</h2>
+            </div>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pulvinar ex tellus, a euismod ipsum faucibus quis. Sed pretium ante a est laoreet, in malesuada mauris blandit. Cras posuere orci nec justo tristique facilisis. Ut laoreet sit amet augue et gravida. Donec dignissim egestas turpis a fringilla. Sed eget tincidunt purus, nec egestas orci</p>
+                <img src="images/about.jpg" alt="Woman listening to an online course on laptop">
+            </div>
+        </div>
+    </section>
+    
+    <section class="courses" id="courses">
+        <div class="container">
+            <div class="title">
+                <h2>Courses</h2>
+            </div>
+            <div class="content">
+                <figure>
+                    <img src="images/intro-html-css.jpg" alt="intro to html and css course">
+                    <figcaption><a href="#courses">Intro to HTML and CSS</a></figcaption>
+                </figure>
+                <figure>
+                    <img src="images/web-develop.jpg" alt="Web Development course">
+                    <figcaption><a href="#courses">Web Development</a></figcaption>
+                </figure>
+                <figure>
+                    <img src="images/angular.jpg" alt="angular javascript framework course">
+                    <figcaption><a href="#courses">Angular JS</a></figcaption>
+                </figure>
+                <figure>
+                    <img src="images/nodejs.jpg" alt="node.js framework course">
+                    <figcaption><a href="#courses">Node.js</a></figcaption>
+                </figure>
+                <figure>
+                    <img src="images/php.jpg" alt="php course">
+                    <figcaption><a href="#courses">PHP</a></figcaption>
+                </figure>
+                <figure>
+                    <img src="images/android.jpg" alt="android development course">
+                    <figcaption><a href="#courses">Android Development</a></figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+    
+    <section class="instructors" id="instructors">
+        <div class="container">
+            <div class="title">
+                <h2>Instructors</h2>
+            </div>
+            <div class="content">
+                <div class="instructor">
+                    <img src="images/avatar-1.png" alt="">
+                    <p>John Doe</p>
+                    <p>Front-end Developer</p>
+                    <p class="year">2011-2017</p>
+                </div>
+                <div class="instructor">
+                    <img src="images/avatar-2.png" alt="">
+                    <p>John Doe</p>
+                    <p>Back-end Developer</p>
+                    <p class="year">2010-2016</p>
+                </div>
+                <div class="instructor">
+                    <img src="images/avatar-3.jpg" alt="">
+                    <p>John Doe</p>
+                    <p>Android Developer</p>
+                    <p class="year">2000-2015</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="contact clearfix" id="contact">
+        <div class="container">
+            <div class="title">
+                <h2>Contact Us</h2>
+            </div>
+            <div class="content">
+                <form method="get" id="form" action="#">
+                    <div class="name">
+                        <label for="fname">First Name</label>
+                        <input type="text" name="fname" id="fname">
+                    </div>
+                    <div class="name">
+                        <label for="lname">Last Name</label>
+                        <input type="text" name="lname" id="lname">
+                    </div>
+                    <div class="email clearfix">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <textarea name="message" id="message">Type your message here ...</textarea>
+                    <input type="submit" value="Send">
+                </form>
+                <div class="social">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    <i class="fa fa-google-plus" aria-hidden="true"></i>
+                </div>
+                <p>Design By: Nouran Samy</p>
+            </div>
+        </div>
+    </section>
+    
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>
